@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dice Game By Sanuja</string>
+    <string name="description_DiceImage">Image : Dice</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="game_point">Game Point</string>
+    <string name="game_point_a">0</string>
+    <string name="game_point_b">0</string>
+    <string name="game_point_default">101</string>
+    <string name="throwButton">Throw</string>
+    <string name="scoreButton">Score</string>
+    <string name="vsTag">VS</string>
+    <string name="gameOverMessage">The Winner is : </string>
+    <string name="new_game_button">New Game</string>
+    <string name="about_button">About</string>
+    <string name="human_title">H:</string>
+    <string name="human_win_count">0</string>
+    <string name="computer_wins">0</string>
+    <string name="computer_title">:C</string>
+    <string name="set_target_title">Set a Target for the Game</string>
+    <string name="set_target_button">SET</string>
+    <string name="two_red_dices">Two_red_dices</string>
+    <string name="main_title">DICE GAME</string>
+</resources>

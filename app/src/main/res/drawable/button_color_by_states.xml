@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- to change color of buttons for relevant states -->
+
+    <!-- button color when the button is pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_pressed"/>
+            <corners android:radius="10dp"/>
+        </shape>
+
+    </item>
+
+    <!-- button color in normal state ENABLED = can click -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/custom_red"/>
+            <corners android:radius="10dp"/>
+        </shape>
+
+    </item>
+    <!-- button color in disabled state DISABLED = can't click -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_disabled"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+</selector>

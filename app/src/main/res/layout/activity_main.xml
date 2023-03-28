@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    ====================================================================================-->
+
+<!--    Full Name : E.M.G.S.S.B. Dehideniya-->
+<!--    IIT ID    : 20200731-->
+<!--    UoW ID    : w1869873-->
+
+<!--    I confirm that I understand what plagiarism is and have read and understood the section on-->
+<!--    Assessment Offences in the Essential Information for Students.-->
+<!--    The work that I have submitted is entirely my own.-->
+<!--    Any work from other authors is duly referenced and acknowledged.-->
+
+<!--    ====================================================================================-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_color_by_states"
+        android:text="@string/new_game_button"
+        android:textColor="@color/custom_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/aboutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_color_by_states"
+        android:text="@string/about_button"
+        android:textColor="@color/custom_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:backgroundTint="@null"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/newGameButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
+        app:srcCompat="@drawable/two_red_dice"
+        android:contentDescription="@string/two_red_dices" />
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/montserratblack"
+        android:text="@string/main_title"
+        android:textAllCaps="false"
+        android:textColor="@color/custom_white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
